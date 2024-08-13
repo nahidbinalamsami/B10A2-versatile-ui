@@ -215,11 +215,24 @@ color: rgb(255, 255, 255);
   background-color: rgb(230, 83, 60);
 }
 
+/* meet our team section */
+.meet-our-team{
+  text-align: center;
+margin-top: 5rem;
 
+}
 
-
-
-
+.meet-our-team h2{
+  color: rgb(255, 255, 255);
+  font-size: 48px;
+  font-weight: 900;
+}
+.meet-our-team p{
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 1rem;
+}
 
 
 
