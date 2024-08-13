@@ -290,6 +290,32 @@ margin-top: 5rem;
   height: 200px;
 }
 
+/* footer section */
+
+.footer-section{
+  background-color:rgba(255, 255, 255, 0.1); 
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-top: 5rem;
+  border-radius: 20px;
+}
+
+
+.footer-section-text{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
