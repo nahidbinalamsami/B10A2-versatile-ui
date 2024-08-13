@@ -309,6 +309,11 @@ justify-content: space-around;
 .footer-one{
   margin-top: 4rem;
 }
+.footer-two, .footer-three{
+  margin-top: 4rem;
+  list-style: none;
+}
+
 .footer-one h2{
 color: rgb(230, 83, 60);
 font-size: 70px;
@@ -322,16 +327,49 @@ padding-bottom: 20px;
   line-height: 24px;
 }
 
-
-.footer-two, .footer-three{
-  margin-top: 4rem;
-  list-style: none;
+.footer-two h4{
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-weight: 700;
+  padding-top: 15px;
+  padding-bottom: 1rem;
+  margin-bottom: 10px;
+}
+.footer-two li{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 40px;
 }
 
+.footer-three h4{
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-weight: 700;
+  padding-top: 15px;
+  padding-bottom: 1rem;
+  margin-bottom: 10px;
+}
 
+.footer-three li{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 40px;
+}
+hr{
+  margin-top: 3rem;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
 
-
-
+.footer-four{
+  text-align: center;
+  margin-top: 1rem;
+  padding-bottom: 2rem;
+  color: rgba(255, 255, 255, 0.5);
+}
 
 
 
@@ -383,6 +421,17 @@ margin-right: 5px;
 .trainer1-section img{
   width: 100%;
 }
+.footer-section-text{
+  flex-direction: column;
+}
+
+
+
+.footer-section{
+margin-right: 5px;
+margin-left: 5px;
+}
+
 
 
 
