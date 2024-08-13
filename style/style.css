@@ -302,10 +302,31 @@ margin-top: 5rem;
 
 
 .footer-section-text{
+display: flex;
+justify-content: space-around;
+}
 
+.footer-one{
+  margin-top: 4rem;
+}
+.footer-one h2{
+color: rgb(230, 83, 60);
+font-size: 70px;
+font-weight: 800;
+padding-bottom: 20px;
+}
+.footer-one p{
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 24px;
 }
 
 
+.footer-two, .footer-three{
+  margin-top: 4rem;
+  list-style: none;
+}
 
 
 
