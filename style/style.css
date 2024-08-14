@@ -3,7 +3,7 @@
 /* font-style */
 .inter-font{
   font-family: "Inter", sans-serif;
-  color: white;
+
   width: 90%;
   margin: 0 auto;
 
@@ -15,6 +15,7 @@
 }
 .bg-color{
   background-color: black;
+  color: white;
 }
 *{
   margin: 0;
@@ -22,7 +23,7 @@
 }
 .header-contant{
   
-  border: 1px solid red;
+  
   background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
 }
 
@@ -62,79 +63,109 @@ justify-content: space-between;
   margin: 1rem; 
  
 }
+
+.home{
+  background-color: red;
+  padding: 10px;
+  border-radius: 10px 0px 0px 10px;
+}
 /* banner section */
+
 .banner-section{
   display: flex;
   justify-content: space-between;
-}
-.banner-section-contain{
-  
   margin-left: 10rem;
-  margin-top: 20px;
+  margin-right: 10rem;
+  margin-top: 3rem;
+  
 }
 
-.banner-section-contain-text{
-  color: rgb(255, 255, 255);
+
+.banner-section-text h2{
   font-size: 78px;
   font-weight: 900;
+  color: rgb(255, 255, 255);
   
 }
-.banner-section-contain-text-formet{
+
+.banner-section-text p{
   color: rgba(255, 255, 255, 0.5);
   font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  margin-top: 10px;
+font-weight: 400;
+line-height: 24px;
 }
-
-.banner-button{
-  font-size: 18px;
-  font-weight: 600;
-  padding: 10px;
-  border: none;
-  border-radius: 20px;
-  margin-top: 1rem;
-  margin-right: 1rem;
+.one{
+border: none;
+padding: 15px;
+margin-top: 1rem;
+margin-right: 10px;
+border-radius: 25px;
 background: rgb(230, 83, 60);
-  color: rgb(255, 255, 255);
+color: rgb(255, 255, 255);
 }
-.banner-downlad{
-  font-size: 18px;
-  font-weight: 600;
-  padding: 10px;
-  border: 1px solid rgb(255, 255, 255);
-  border-radius: 20px;
-  background-color: black;
-  color:rgb(255, 255, 255)
-  
-  
-}
-.banner-section-pic img{
-  margin-right: 15rem;
+.two{
+  border: none;
+  padding: 15px;
   margin-top: 1rem;
+  margin-right: 10px;
+  border-radius: 25px;
+  border: 1px solid rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.5);
 }
-.banner-section-details{
-  border: 1px solid red;
+.banner-section-picture{
+  padding: 5px;
+  position: relative;
 }
-.secal{
-width: 30px;
-height: 30px;
-border: 2px solid red ;
-border-radius: 100%;
-background-color: red;
+.videos-tutorial{
+  width: 180px;
+  height: 80px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(48, 48, 48, 0.54);
+  border-radius: 10px;
+  position: absolute;
+  bottom: 21rem;
+  left: 18rem;
+}
+.free-workout{
+  width: 180px;
+  height: 80px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(48, 48, 48, 0.54);
+  border-radius: 10px;
+  position: absolute;
+  bottom: 4rem;
+  left: -8rem;
+
+}
+.free-workout h3{
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+font-weight: 900;
+padding: 5px;
+}
+.free-workout p{
+  font-size: 13px;
+font-weight: 400;
+color: rgba(255, 255, 255, 0.65);
+padding-left: 5px;
 }
 
 
 
-
-
-
-
-
-
-
-
-
+.videos-tutorial h3{
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+font-weight: 900;
+padding: 5px;
+}
+.videos-tutorial p{
+  font-size: 13px;
+font-weight: 400;
+color: rgba(255, 255, 255, 0.65);
+padding-left: 5px;
+}
+  
 /* change-habits */
 .change-habits{
 text-align: center;
@@ -527,10 +558,21 @@ hr{
 
 
 @media screen and (max-width:576px) {
-  .header-contant{
+
+  .nav-contant{
+    flex-direction: column;
+  }
+  .span-one{
+    margin-left: 10px;
+    
+    
+  }
+  .nav-li-contant{
     display: none;
   }
-
+.banner-section{
+  flex-direction: column;
+}
 .change-habits-picture{
   grid-template-columns: repeat(1, 1fr);
   margin-left: 25px;
